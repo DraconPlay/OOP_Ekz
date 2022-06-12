@@ -3,21 +3,23 @@
 # показывать только последние 4 цифры. Остальные цифры должны заменяться
 # звездочками
 
-# def card_hide(card):
-#     return '*' * len(card[:-4]) + card[-4:]
-#
-#
-# print(card_hide("1234589767891235"))
+def card_hide(card):
+    return '*' * len(card[:-4]) + card[-4:]
+
+
+print(card_hide("1234589767891235"))
+
 
 # Задача №2
 # Напишите функцию, которая проверяет: является ли слово палиндромом
 
-# def palindrome(data):
-#     data = data.replace(' ', '').lower()
-#     return 'Палиндром' if data == data[::-1] else 'Не палиндром'
-#
-#
-# print(palindrome('123321'))
+def palindrome(data):
+    data = data.replace(' ', '').lower()
+    return 'Палиндром' if data == data[::-1] else 'Не палиндром'
+
+
+print(palindrome('123321'))
+
 
 # Задача №3
 
